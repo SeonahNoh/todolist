@@ -1,0 +1,15 @@
+.TodoList {
+  min-height: 320px;
+  max-height: 513px;
+  overflow-y: auto;
+  color: salmon;
+  
+  &::-webkit-scrollbar {
+    width: 8px;
+    background: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: salmon;
+  }
+}

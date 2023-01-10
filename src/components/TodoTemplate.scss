@@ -1,0 +1,72 @@
+.TodoTemplate {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: 512px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #FFE2E2;
+  box-shadow: 5px 5px 10px #FFC9C9;
+  
+  h2 {
+    margin: 0;
+    margin-top: 0.8rem;
+
+    span {
+      display: inline-block;
+      text-align: center;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      margin: 0.125rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #fff;
+      border-radius: 50%;
+      background-color: #adb5db;
+    }
+  }
+
+  .title {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-size: 4rem;
+    margin: 0;
+    margin: 0.3rem 0;
+    // background-color: red;
+
+    .img {
+      position: absolute;
+      top: 0;
+      padding-left: 0.6rem;
+      width: 100px;
+      display: inline-block;
+    }
+  }
+
+  .date {
+    margin-bottom: 1.5rem;
+  }
+
+  .completeRate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+
+    .progressbar {
+      display: flex;
+      align-items: center;
+      width: 78%;
+    }
+  }
+
+  .content {
+      background-color: transparent;
+  }
+}
+
+

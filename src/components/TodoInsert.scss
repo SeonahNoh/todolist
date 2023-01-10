@@ -1,0 +1,38 @@
+.TodoInsert {
+  display: flex;
+  border: 2px solid #FFB6B9;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: #FFC7C7;
+
+  input {
+      outline: none;
+      border: none;
+      background: none;
+      padding: 0.4rem;
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 1.25rem;
+      color: #fff;
+      flex: 1;
+
+      &::placeholder {
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 1.4rem;
+        color: #FFE2E2;
+      }
+  }
+
+  button {
+      outline: none;
+      border: none;
+      background: none;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      color: #fff;
+      line-height: 1.5;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+  }
+}
