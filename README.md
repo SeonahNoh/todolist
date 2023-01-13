@@ -39,7 +39,7 @@
 
 <br>
 
-## 🔗 링크**
+## 🔗 링크
 [**TodoList 바로가기**](http://trsdlo1080.dothome.co.kr/todolist/index.html)
 
 <br>
