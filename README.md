@@ -40,7 +40,7 @@
 <br>
 
 ## 🔗 링크**
-**[링크 들어가기]** (http://trsdlo1080.dothome.co.kr/todolist/index.html)
+[**TodoList 바로가기**](http://trsdlo1080.dothome.co.kr/todolist/index.html)
 
 <br>
 
